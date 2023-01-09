@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Chess.NET.Bishop">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pieces\Bishop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Piece">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>ICAAAQAAAAAAAAA0AAABAAQAAEAAAQAABAAAgSAACAA=</HashCode>
+      <FileName>Piece.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.King">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAAAAAAIAAAAAAAAAAABAAUAAEAAACAAAAAACAAAKAE=</HashCode>
+      <FileName>Pieces\King.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Knight">
+    <Position X="4.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pieces\Knight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Pawn">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAACAAAABAAQAAEAAAAEAAAAAAAAACAA=</HashCode>
+      <FileName>Pieces\Pawn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Queen">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pieces\Queen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Rook">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAABAAQAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Pieces\Rook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.ChessBoardControl">
+    <Position X="1.25" Y="13" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Chess.NET.ChessBoardControl.SquareClickHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ChessBoardControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Class Name="Chess.NET.ChessBoardControl.BoardSquare" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ChessBoardControl.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IACAAQAAAAADAoAEAAAAAUFAAQAAAAAAAgAACAAAAAA=</HashCode>
+      <FileName>ChessBoardControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Control" Collapsed="true">
+    <Position X="1.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.NET.GameBoard">
+    <Position X="3" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAAAAAAAChEACAAAAAAAAQgAAAAAAAAAAAQ=</HashCode>
+      <FileName>GameBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Game">
+    <Position X="4.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACESAEAEECAECQEAABAAAAAgAAAQhyAaBAA=</HashCode>
+      <FileName>Game.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Chess.NET.GameNetworkConnection">
+    <Position X="6.5" Y="13" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Delegate Name="Chess.NET.GameNetworkConnection.NetworkMessageHandler" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameNetworkConnection.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAQAgAAAABA=</HashCode>
+      <FileName>GameNetworkConnection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.GameForm">
+    <Position X="11.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQCCAAACAAgAAAAAFAAAAQAAAAQ=</HashCode>
+      <FileName>GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="14" Y="11.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Chess.NET.NetworkClientForm">
+    <Position X="13.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAEAAAACAAABAAAACIAAACAAAAAACAABAAAAAAAAA=</HashCode>
+      <FileName>NetworkClientForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.NetworkForm">
+    <Position X="15" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAABCAAACAAAACAAAAAACAAAAAAEAAAAA=</HashCode>
+      <FileName>NetworkForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.NetworkHostForm">
+    <Position X="16.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAgACAAgBCAAACAAAACAAAAAACAAAAAAAAAAEA=</HashCode>
+      <FileName>NetworkHostForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chess.NET.Player">
+    <Position X="8.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAGAAAAAAEAAABAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
